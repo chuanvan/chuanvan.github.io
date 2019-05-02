@@ -1,0 +1,58 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+
+	margin: 0;
+	color: white;
+}
+div{
+	
+	display: block;
+	padding: 20px;
+	float: left;
+
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+.red{
+	
+	background-color: red;
+	height: 400px;
+	width: 60%;
+	
+	
+	
+	margin-right:   15px;
+
+
+
+
+
+}
+.green{
+	background-color: green;
+	height: 200px;
+	width: calc(60%-15px);
+	
+	
+	
+
+}
+
+.blue{
+	background-color: blue;
+	height: 200px;
+	width: calc(60%-15px);
+	
+
+	
+
+}
