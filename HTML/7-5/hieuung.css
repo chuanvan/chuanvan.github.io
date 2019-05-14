@@ -1,0 +1,32 @@
+button {
+
+	color: white;
+	text-align: center;
+	background-color: #4083b2;
+	border-radius: 20px;
+	height: 100px;
+	width: 200px;
+	
+	
+
+	display: flex;
+
+	
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	vertical-align: middle;
+
+	box-shadow: 0;
+	border: 0;
+
+
+}
+button:hover{
+
+	border-radius: 40px;
+	transition-timing-function: linear;
+	background-color: #15ab74;
+
+
+}

@@ -1,0 +1,53 @@
+.logo img{
+ 	display: flex;
+	margin: auto;
+	float: center;
+	width: 50%;
+
+}
+li{
+	transition: background-color .3s;
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    display: list-item;
+    
+    }
+
+li a{
+  	    font-weight: 1000px;
+    	transition: background-color .3s;
+    	font-size: 2rem;
+    	display: flex;
+    	padding: 0 15px;
+    	padding-top: 15px;
+    	cursor: pointer;
+    	text-decoration: none;
+    	text-align: center;
+    	float: center;
+    	padding-left: 10px;
+
+  }
+li.active{
+	background: #008c9e;
+}
+li:hover {
+    background: blue;
+}
+.menu-bar{
+	
+	float: center;
+}
+.content{
+	padding-top: 100px;
+	
+	/*display: grid ;*/
+	/*grid-template-columns: auto auto auto auto;*/
+	grid-gap: 15px;
+	margin: auto;
+	color: green;
+	box-sizing: border-box;
+}
+.wraper{
+	/*margin: auto;*/
+}
