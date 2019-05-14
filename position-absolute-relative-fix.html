@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai Tap Ve Nha: Position-absolute-relative-fix</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+		*{
+			box-sizing: border-box;
+		}
+
+		.baner{
+			width: 100%;
+			margin:auto;
+			text-align: center;
+
+		}
+
+		#menu {
+			float: left;
+			position: relative;
+			margin: 30px;
+			font-size: 30px;
+			text-align: center;
+			padding-right: 15px;
+
+
+
+		}
+		h1{
+			margin: 30px 0 1 0;
+			padding-top: 30px;
+			float: left;
+		}
+		.wraper{
+			max-width: 1000px;
+			margin: auto;
+		}
+		
+		.main-content img{
+			max-width: 300px;
+			border: 1px solid 0;
+			box-shadow: 5px;
+			
+
+		}
+		footer{
+			 font-size: 15pt;
+		    text-align: center;
+		    padding-bottom: 10px;
+		    color: grey;
+		}
+		#menu > a:first-child{
+			padding: 4px;
+			background-color: #FFFFFF;
+			border-radius: 50%;
+			position: absolute;
+			top: -220px;
+    
+            right: -690px;
+
+
+		}
+		#menu > a:first-child > img{
+			max-width: 160px;
+			border-radius: 50%;
+
+		}
+		#chat{
+
+			position: fixed;
+			right: 30px;
+			bottom: 30px;
+		}
+		#chat img{
+			max-width: 50px;
+		}
+		.back {
+			float: left;
+			padding-top: 15px;
+			
+			width: 30px;
+			height: 30px;
+
+			
+		}
+		.next{
+			padding-top: 15px;
+			
+			width: 30px;
+			height: 30px;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	 <div class="wraper">
+	 	<div class="baner">
+	 		<img src="industrial_automation_1170x400_en.png" alt="Industrial-automation">
+	 	</div>
+	 	<div id="menu">
+	 		
+	 			<a href="#"><img src="avatar1.png" alt="logo-cool">
+	 			<a href="#">Trang chu</a>
+	 			<a href="#">Robot</a>
+	 			<a href="#">Vision</a>
+	 			<a href="#">IoT</a>
+	 			<a href="#">About</a>
+	 		
+	 	</div>
+	 	<br>
+	 	<br>
+	 	<div class="main-content">
+	 		<h1>Automation system</h1>
+	 		<br>
+	 		<a href="#"><img src="AI-Pic.png" alt="cong-nghe-AI"></a>
+	 		<a href="#"><img src="automation-600x400.png" alt="automation system"></a>
+	 		<a href="#"><img src="B01FLO7CX2.png" alt="tu-dong-hoa"></a>
+	 		<a href="#"><img src="HanTek_comp-2-600x400.jpg" alt="robot-nguoi-may"></a>
+	 		<a href="#"><img src="PAVP6-VS6BANNER.png" alt="PVA-banner"></a>
+	 		<a href="#"><img src="robot-giong-nguoi-that.png" alt="robot-giong-nguoi-that"></a>
+	 		<br>
+	 		<div class="back"> <a href="#">Back</a> </div>
+	 		<div class="next"> <a href="#">Next</a></div>
+
+	 	</div>
+	 	<footer>
+	 		 <p>Copyright &copy; 2019</p>
+
+	 	</footer>
+	 	<div id="chat">
+	 		<img src="images.png">
+	 	</div>
+	 		
+	 	
+	 </div>
+
+</body>
+</html>
