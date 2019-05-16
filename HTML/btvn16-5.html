@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai Tap JavaScrip</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<h1>Bai tap ve nha Javascrip 1-2</h1>
+	<p>Nhap so can tinh binh phuong:</p>
+	<input type="number" id="myNum">
+	<p>Nhap so can tinh giai thua</p>
+	<input type="number" id="myGiaithua">
+	<br>
+	<p>Tinh Binh phuong</p>
+	<button onclick="Tinhbinh2()">Tinh Binh Phuong</button>
+	<p>Tinh giai thua</p>
+	<button onclick="tinhgiaithua()">Tinh giai thua </button>
+
+	<script>
+	        function Tinhbinh2()
+	        {
+			var x=document.getElementById("myNum").value;
+			document.getElementById("bp").innerHTML =x*x;
+		    }
+		    function tinhgiaithua()
+		    {
+
+		    	var n=document.getElementById("myGiaithua").value;
+		    	var giaithua=1;
+		    	for (var i = 1; i <= n; i++) {
+		    		giaithua=giaithua*i;
+		    	}
+		    	document.getElementById("gt").innerHTML=giaithua;
+
+		    }
+	</script>
+	<br>
+	<p>Tinh Binh Phuong</p>
+	<p id="bp"> </p>
+	<p>Tinh giai thua</p>
+	<p id="gt">  </p>
+
+
+</body>
+</html>
