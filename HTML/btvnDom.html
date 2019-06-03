@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DocumentDom Trong Javascript</title>
+    <style>
+           body{
+               text-align: center;
+                background-color: non;
+           }
+
+    </style>
+</head>
+<body id="content">
+        <p id="p1"> Tien khong mua duoc tat ca, nhung ve co ban thi tien mua duoc gan het moi thu trong vu tru <br>
+                    Tiền không quan trọng…nhưng đó là ta đang nói về tiền của người khác!  <br>
+                    Để dành một khoản tiền nhỏ vào mỗi tháng, và đến cuối năm bạn sẽ vô cùng ngạc nhiên bởi khoản tiền bạn dành dụm được ít ỏi làm sao – Ernest Haskins <br>
+                    </p>
+        <br>
+        <p id="p2"> Người đời đều nói ta là gian hùng nhưng không làm được gì một kẻ gian hùng như ta, <br>
+                      các ngươi tự khoe mình là quân tử nhưng đều thua trong tay một kẻ gian hùng như ta. Nếu cái giá của việc làm quân tử là bị lăng nhục, <br> 
+                      bị giẫm đạp, bị tiêu diệt, thậm chí là bị giết thì ta làm một kẻ gian hùng có thể thực hiện được hoài bão của mình.  <br> 
+                      Từ trước tới nay gian xảo như trung hiền, trá ngụy tựa chân thật, trung nghĩa và gian ác đều không thể nhìn thấy được dựa trên biểu hiện bên ngoài. <br> 
+                      Có thể trước nay các ngươi đã nhìn nhầm Tào Tháo ta bây giờ lại nhìn nhầm nhưng ta vẫn là ta. Trươc đây ta vốn không sợ người khác nhìn lầm ta. </p>
+        <br>
+        <p id="p3"> 1 Trang Web duoc tao len tu 3 ngon ngu: HTML, CSS, JavaScript. <br>
+            HTML se tao len khung suon cho trang web, phan chia cac Layout cho cac noi dung <br>
+            CSS trang tri cho cac Layout co trong trang web duoc dep va sinh dong hon  <br>
+            JavaScript thuc hien viec control cac noi dung, dieu huong nguoi dung , giao tiep voi nguoi dung <br>
+            DAY CHI LA DOAN VAN MANG TINH NOI PHET MA THOI =)) <br>
+
+         </p>
+         <script>
+                    function changeColor(){
+                        p1.style.color= "blue";
+                        p2.style.color= "yellow";
+                        p3.style.color ="red";
+                    }
+                    function changeBgColor(){
+                       // body.style.background-color = "aqua";
+                      // let mybody = color;
+                       
+                       return  document.body.style.backgroundColor="red";
+
+                    }
+                    function  copyContent(p1, p2){
+                            let myp1="";
+                            let myp2="";
+                           
+                            myp2= p2.innerText;
+                            p2.innerText=p1.innerText;
+                            return p1.innerText=myp2;
+
+                    } 
+                    function changeFontSize(){
+                        return document.getElementById("content").style.fontSize="30px";
+
+                    }
+                    
+         </script>
+
+</body>
+</html>
